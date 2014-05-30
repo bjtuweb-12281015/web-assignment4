@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>杰伦页</title>
+<link rel="stylesheet" href="../1.css" >
+</head>
+
+<body>
+<div id="butong_net_left" style="overflow:hidden; width:1150px;"> 
+<table cellpadding="0" cellspacing="0" border="0"> 
+<tr><td><img src="../images/9as70n3ir61b.jpg" width="200" height="230" /></td>
+<td id="butong_net_left1" valign="top" align="center"width="950" height="230"> 
+<table cellpadding="0" cellspacing="0" border="0"> 
+<tr align="center"> 
+    <td width="200" height="230"><img id="img1"  onmouseover="bigger1()" onmouseout="normal1()" src="../images/ltuj.com_49449_240x320.jpg" width="200"height="230"  /></td>
+    <td width="300" height="230"><img id="img2" onmouseover="bigger2()" onmouseout="normal2()" src="../images/102420852ed60d54268f.jpg" width="300" height="230" /></td>
+    <td width="250" height="230"><img id="img3" onmouseover="bigger3()" onmouseout="normal3()" src="../images/170128.jpg" width="250" height="230" /></td>
+    <td width="200" height="230"><img id="img4" onmouseover="bigger4()" onmouseout="normal4()" src="../images/60bOOOPIC87_202.jpg" width="200" height="230" /></td>
+</tr> 
+</table> 
+</td> 
+<td id="butong_net_left2" valign="top"></td> 
+</tr> 
+</table> 
+</div> 
+
+<div style=" width:1150px;">
+<table cellpadding="0" cellspacing="0" height="500" width="1150" background="../images/u=2028424300,1305066446&fm=21&gp=0.jpg" >
+<tr >
+<td class="first" width="200" height="50">音乐墙(top)<br /><br /><br />周的介绍(right1)<br /><br /><br />喜欢感言(right2)<br /><br /><br />歌词欣赏(right3)<br /><br /><br /><a href="index.html">回到主页</a></td>
+<td class="first" width="200" height="500">姓名：周杰伦<br /><br />英文名：Jay Chou<br /><br />身高：175CM<br /><br />星座：摩羯座<br /><br />职业：歌手、导演、编剧<br /><br />出生地：中国台湾<br /><br />成就：世界十大鬼才音乐人<br /><br />尊敬的人:外婆、妈妈<br /><br />首部专辑：2001《Jay》<br /><br />处女作：《头文字D》</td>
+<td class="first" width="300" height="500">2000年，周杰伦出道了<br /><br />那时候我7岁，还没开始怎么关注他<br /><br />过了两年，长大了些<br /><br />开始喜欢他的歌<br /><br />时间久这么一点点的过去了<br /><br />好多东西都变了<br /><br />但是一直都在听他的歌<br /><br /> 到今年都12年了<br/><br />妈妈难以理解我的喜欢<br /><br />喜欢是因为这些陪伴了我的整个青春</td>
+<td  class="first" width="225" colspan="2" height="500">最美的不是下雨天<br /><br />是曾与你躲过的屋檐<br /><br />--《不能说的秘密》<br /><br />兰亭临帖<br /><br /> 行书如行云流水<br /><br />月下门棰<br /><br /> 心细如你脚步碎流水<br /><br />--《兰亭序》<br /><br />所谓的那快乐<br /><br />赤脚在田里追蜻蜓追到累了<br /><br />--《稻香》</td>
+</tr>
+</table>
+</div>
+<script> 
+var speed=30//速度数值越大速度越慢 
+butong_net_left2.innerHTML=butong_net_left1.innerHTML 
+function Marquee3(){ 
+if(butong_net_left2.offsetWidth-butong_net_left.scrollLeft<=0) 
+butong_net_left.scrollLeft-=butong_net_left1.offsetWidth 
+else{ 
+butong_net_left.scrollLeft++ 
+} 
+} 
+var MyMar3=setInterval(Marquee3,speed) 
+butong_net_left.onmouseover=function() {clearInterval(MyMar3)} 
+butong_net_left.onmouseout=function() {MyMar3=setInterval(Marquee3,speed)} 
+var img1 = document.getElementById('img1');
+var img2 = document.getElementById('img2');
+var img3 = document.getElementById('img3');
+var img4 = document.getElementById('img4');
+ function bigger1(){
+  img1.style.width = '400px';
+  img1.style.height = '400px';
+ }
+ function bigger2(){
+  img2.style.width = '400px';
+  img2.style.height = '400px';
+ }
+ function bigger3(){
+  img3.style.width = '400px';
+  img3.style.height = '400px';
+ }
+ function bigger4(){
+  img4.style.width = '400px';
+  img4.style.height = '400px';
+ }
+ function normal1(){
+  img1.style.width = '200px';
+  img1.style.height = '230px';
+ }
+ function normal2(){
+  img2.style.width = '300px';
+  img2.style.height = '230px';
+ }
+ function normal3(){
+  img3.style.width = '250px';
+  img3.style.height = '230px';
+ }
+ function normal4(){
+  img4.style.width = '200px';
+  img4.style.height = '230px';
+ }
+</script>
+
+
+</body>
+</html>

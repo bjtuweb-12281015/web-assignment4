@@ -1,0 +1,20 @@
+td.first{
+	font-size: 18px;
+	color: #990;
+	font-family: Tahoma, Geneva, sans-serif;
+	text-align:center;
+	
+}
+td.second{
+	font-size:36px;
+	color:#990;
+	font-family:Tahoma, Geneva, sans-serif;
+	
+	
+}
+td.third{
+	font-size:36px;
+	color:#30F;
+	font-family:Tahoma, Geneva, sans-serif;
+	text-align:center
+}
